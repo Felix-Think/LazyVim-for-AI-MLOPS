@@ -26,6 +26,8 @@ A fully customized **LazyVim** setup optimized for daily development on **Arch L
 
 ## 📁 Folder Structure
 
+
+```bash
 ~/.config/nvim
 ├── init.lua
 ├── lua/
@@ -33,6 +35,7 @@ A fully customized **LazyVim** setup optimized for daily development on **Arch L
 │ ├── plugins/
 │ └── ...
 └── lazy-lock.json
+```
 
 
 ## 🧩 Requirements
@@ -62,8 +65,8 @@ export NVM_DIR="$HOME/.nvm"
 
 Đặt vào ~/.zprofile để đảm bảo nvm load cho mọi shell login.
 
-----------------------------------------------------------------------------------
 Không override PATH bằng cách ép /usr/bin:$PATH (sẽ phá NVM).
+
 ### 3️⃣ Python Provider (Using Isolated Virtual Environment)
 - Không dùng Python system để tránh xung đột PEP 668.
 
