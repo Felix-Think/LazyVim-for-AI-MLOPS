@@ -75,8 +75,8 @@ python -m venv ~/.nvim-python
 ~/.nvim-python/bin/pip install pynvim
 ```
 
--Thêm vào cấu hình NeoVim:
-
+- Thêm vào cấu hình NeoVim:
+- Vào ~/config/nvim/init.lua
 ```bash
 vim.g.python3_host_prog = "~/.nvim-python/bin/python"
 ```
